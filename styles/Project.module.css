@@ -1,0 +1,51 @@
+
+.projectSection{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.project1{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    width: 400px;
+    padding: 1px;
+    text-align: center;
+    justify-self: center;
+}
+
+.pTitle{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #CF5C36;
+}
+
+.pDescription{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #CF5C36;
+}
+
+.learnMoreBtn{
+    border: 1px solid #CF5C36;
+    border-radius: 50px;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #CF5C36;
+    background-color: #ffffff;
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+.learnMoreBtn:hover {
+    color: #ffffff;
+    background-color: #CF5C36;
+}
